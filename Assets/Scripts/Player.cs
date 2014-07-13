@@ -32,6 +32,13 @@ public class Player : MonoBehaviour {
             coin.pickup();
         }
 
+        BasicEnemy enemy = col.GetComponent<BasicEnemy>();
+        if (enemy != null)
+        {
+            updateCoins(-3);
+            coin.pickup();
+        }
+
         Debug.Log("onTriggerEnterEvent: " + col.gameObject.name);
     }
 
@@ -43,6 +50,13 @@ public class Player : MonoBehaviour {
 
     void updateCoins(int amount) {
         coins += amount;
-        _movement.jumpHeight = maxJump - (coins * coinWeight);
+        if (coins < 0) coins = 0;
+        _movement.jumpHeight = Mathf.Max(maxJump - (coins * coinWeight), 0);
+        
+    }
+
+    public int getCoins()
+    {
+        return coins;
     }
 }
