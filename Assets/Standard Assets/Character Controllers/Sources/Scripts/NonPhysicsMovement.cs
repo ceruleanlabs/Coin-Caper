@@ -29,8 +29,6 @@ public class NonPhysicsMovement : MonoBehaviour
 
 		// listen to some events for illustration purposes
 		_controller.onControllerCollidedEvent += onControllerCollider;
-		_controller.onTriggerEnterEvent += onTriggerEnterEvent;
-		_controller.onTriggerExitEvent += onTriggerExitEvent;
 	}
 
 
@@ -44,18 +42,6 @@ public class NonPhysicsMovement : MonoBehaviour
 
 		// logs any collider hits if uncommented. it gets noisy so it is commented out for the demo
 		//Debug.Log( "flags: " + _controller.collisionState + ", hit.normal: " + hit.normal );
-	}
-
-
-	void onTriggerEnterEvent( Collider2D col )
-	{
-		Debug.Log( "onTriggerEnterEvent: " + col.gameObject.name );
-	}
-
-
-	void onTriggerExitEvent( Collider2D col )
-	{
-		Debug.Log( "onTriggerExitEvent: " + col.gameObject.name );
 	}
 
 	#endregion

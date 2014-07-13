@@ -11,6 +11,12 @@ TextureImporter:
     21300012: floor
     21300014: 16x16_spritesheet_6
     21300016: 16x16_spritesheet_7
+    21300018: 16x16_spritesheet_0
+    21300020: 16x16_spritesheet_1
+    21300022: 16x16_spritesheet_2
+    21300024: 16x16_spritesheet_3
+    21300026: 16x16_spritesheet_4
+    21300028: 16x16_spritesheet_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,7 +58,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: coin1
+    - name: 16x16_spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -60,9 +66,9 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: coin2
+    - name: 16x16_spritesheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -70,9 +76,9 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: coin3
+    - name: 16x16_spritesheet_2
       rect:
         serializedVersion: 2
         x: 32
@@ -80,9 +86,9 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: coin4
+    - name: 16x16_spritesheet_3
       rect:
         serializedVersion: 2
         x: 48
@@ -90,9 +96,9 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: floor_end
+    - name: 16x16_spritesheet_4
       rect:
         serializedVersion: 2
         x: 0
@@ -100,9 +106,9 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: floor
+    - name: 16x16_spritesheet_5
       rect:
         serializedVersion: 2
         x: 16
@@ -110,7 +116,27 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 16x16_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 16x16_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
